@@ -14,7 +14,6 @@
 FINAL/
 ├── weak_app/
 │   ├── app.py              - Main vulnerable application
-│   ├── test.py             - Simple calculator (unrelated to web app)
 │   ├── data/               - Database and file storage
 │   ├── logs/               - Access logs and audit trails
 │   ├── static/             - CSS assets
