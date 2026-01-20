@@ -1,0 +1,144 @@
+
+[2026-01-20T07:51:39.830285]
+IP: 127.0.0.1
+Method: GET
+Path: /
+Query: 
+Headers: {"Host": "127.0.0.1:5000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "session=eyJsb2dpbl9hdHRlbXB0cyI6MX0.aTj0Kw.fYbmFUqPJ90zYBQ9BZ1HjAlKjfs", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Priority": "u=0, i"}
+Body: 
+-------------------------
+
+[2026-01-20T07:54:27.973922]
+IP: 127.0.0.1
+Method: GET
+Path: /
+Query: 
+Headers: {"Host": "127.0.0.1:5000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "session=eyJsb2dpbl9hdHRlbXB0cyI6MX0.aTj0Kw.fYbmFUqPJ90zYBQ9BZ1HjAlKjfs", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Dnt": "1", "Sec-Gpc": "1", "Priority": "u=0, i"}
+Body: 
+-------------------------
+
+[2026-01-20T07:54:28.263847]
+IP: 127.0.0.1
+Method: GET
+Path: /favicon.ico
+Query: 
+Headers: {"Host": "127.0.0.1:5000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0", "Accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5", "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Referer": "http://127.0.0.1:5000/", "Cookie": "session=eyJsb2dpbl9hdHRlbXB0cyI6MX0.aTj0Kw.fYbmFUqPJ90zYBQ9BZ1HjAlKjfs", "Sec-Fetch-Dest": "image", "Sec-Fetch-Mode": "no-cors", "Sec-Fetch-Site": "same-origin", "Dnt": "1", "Sec-Gpc": "1", "Priority": "u=6"}
+Body: 
+-------------------------
+
+[2026-01-20T07:54:34.899938]
+IP: 127.0.0.1
+Method: GET
+Path: /login
+Query: 
+Headers: {"Host": "127.0.0.1:5000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "session=eyJsb2dpbl9hdHRlbXB0cyI6MX0.aTj0Kw.fYbmFUqPJ90zYBQ9BZ1HjAlKjfs", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Dnt": "1", "Sec-Gpc": "1", "Priority": "u=0, i"}
+Body: 
+-------------------------
+
+[2026-01-20T07:54:42.668042]
+IP: 127.0.0.1
+Method: POST
+Path: /login
+Query: 
+Headers: {"Host": "127.0.0.1:5000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "gzip, deflate, br, zstd", "Content-Type": "application/x-www-form-urlencoded", "Content-Length": "32", "Origin": "http://127.0.0.1:5000", "Connection": "keep-alive", "Referer": "http://127.0.0.1:5000/login", "Cookie": "session=eyJsb2dpbl9hdHRlbXB0cyI6MX0.aTj0Kw.fYbmFUqPJ90zYBQ9BZ1HjAlKjfs", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Dnt": "1", "Sec-Gpc": "1", "Priority": "u=0, i"}
+Body: username=admin&password=admin123
+-------------------------
+
+[2026-01-20T07:54:46.982922]
+IP: 127.0.0.1
+Method: GET
+Path: /login
+Query: 
+Headers: {"Host": "127.0.0.1:5000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "session=eyJsb2dpbl9hdHRlbXB0cyI6MX0.aTj0Kw.fYbmFUqPJ90zYBQ9BZ1HjAlKjfs", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Dnt": "1", "Sec-Gpc": "1", "Priority": "u=0, i"}
+Body: 
+-------------------------
+
+[2026-01-20T07:54:56.542656]
+IP: 127.0.0.1
+Method: POST
+Path: /login
+Query: 
+Headers: {"Host": "127.0.0.1:5000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "gzip, deflate, br, zstd", "Content-Type": "application/x-www-form-urlencoded", "Content-Length": "27", "Origin": "http://127.0.0.1:5000", "Connection": "keep-alive", "Referer": "http://127.0.0.1:5000/login", "Cookie": "session=eyJsb2dpbl9hdHRlbXB0cyI6MX0.aTj0Kw.fYbmFUqPJ90zYBQ9BZ1HjAlKjfs", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Dnt": "1", "Sec-Gpc": "1", "Priority": "u=0, i"}
+Body: username=&password=anything
+-------------------------
+
+[2026-01-20T07:55:01.806488]
+IP: 127.0.0.1
+Method: GET
+Path: /login
+Query: 
+Headers: {"Host": "127.0.0.1:5000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "gzip, deflate, br, zstd", "Connection": "keep-alive", "Cookie": "session=eyJsb2dpbl9hdHRlbXB0cyI6MX0.aTj0Kw.fYbmFUqPJ90zYBQ9BZ1HjAlKjfs", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "none", "Sec-Fetch-User": "?1", "Dnt": "1", "Sec-Gpc": "1", "Priority": "u=0, i"}
+Body: 
+-------------------------
+
+[2026-01-20T07:56:07.320229]
+IP: 127.0.0.1
+Method: POST
+Path: /login
+Query: 
+Headers: {"Host": "127.0.0.1:5000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "gzip, deflate, br, zstd", "Content-Type": "application/x-www-form-urlencoded", "Content-Length": "44", "Origin": "http://127.0.0.1:5000", "Connection": "keep-alive", "Referer": "http://127.0.0.1:5000/login", "Cookie": "session=eyJsb2dpbl9hdHRlbXB0cyI6MX0.aTj0Kw.fYbmFUqPJ90zYBQ9BZ1HjAlKjfs", "Upgrade-Insecure-Requests": "1", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1", "Dnt": "1", "Sec-Gpc": "1", "Priority": "u=0, i"}
+Body: username=%27+OR+1%3D1+%2F*&password=anything
+-------------------------
+
+[2026-01-20T09:09:19.215688]
+IP: 10.2.0.2
+Method: GET
+Path: /
+Query: 
+Headers: {"Host": "10.2.0.2:5000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "gzip, deflate", "Connection": "keep-alive", "Upgrade-Insecure-Requests": "1", "Priority": "u=0, i"}
+Body: 
+-------------------------
+
+[2026-01-20T09:09:20.204299]
+IP: 10.2.0.2
+Method: GET
+Path: /favicon.ico
+Query: 
+Headers: {"Host": "10.2.0.2:5000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0", "Accept": "image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5", "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "gzip, deflate", "Connection": "keep-alive", "Referer": "http://10.2.0.2:5000/", "Dnt": "1", "Sec-Gpc": "1", "Priority": "u=6"}
+Body: 
+-------------------------
+
+[2026-01-20T09:09:24.280063]
+IP: 10.2.0.2
+Method: GET
+Path: /
+Query: 
+Headers: {"Host": "10.2.0.2:5000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "gzip, deflate", "Connection": "keep-alive", "Upgrade-Insecure-Requests": "1", "Dnt": "1", "Sec-Gpc": "1", "Priority": "u=0, i"}
+Body: 
+-------------------------
+
+[2026-01-20T09:09:30.261307]
+IP: 10.2.0.2
+Method: GET
+Path: /search
+Query: 
+Headers: {"Host": "10.2.0.2:5000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "gzip, deflate", "Connection": "keep-alive", "Upgrade-Insecure-Requests": "1", "Dnt": "1", "Sec-Gpc": "1", "Priority": "u=0, i"}
+Body: 
+-------------------------
+
+[2026-01-20T09:10:09.113757]
+IP: 10.2.0.2
+Method: GET
+Path: /search
+Query: q=%27+OR+1%3D1+%2F*
+Headers: {"Host": "10.2.0.2:5000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "gzip, deflate", "Connection": "keep-alive", "Referer": "http://10.2.0.2:5000/search", "Upgrade-Insecure-Requests": "1", "Dnt": "1", "Sec-Gpc": "1", "Priority": "u=0, i"}
+Body: 
+-------------------------
+
+[2026-01-20T09:11:02.134513]
+IP: 10.2.0.2
+Method: GET
+Path: /login
+Query: 
+Headers: {"Host": "10.2.0.2:5000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "gzip, deflate", "Connection": "keep-alive", "Upgrade-Insecure-Requests": "1", "Dnt": "1", "Sec-Gpc": "1", "Priority": "u=0, i"}
+Body: 
+-------------------------
+
+[2026-01-20T09:11:14.269379]
+IP: 10.2.0.2
+Method: POST
+Path: /login
+Query: 
+Headers: {"Host": "10.2.0.2:5000", "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "gzip, deflate", "Content-Type": "application/x-www-form-urlencoded", "Content-Length": "30", "Origin": "http://10.2.0.2:5000", "Connection": "keep-alive", "Referer": "http://10.2.0.2:5000/login", "Upgrade-Insecure-Requests": "1", "Dnt": "1", "Sec-Gpc": "1", "Priority": "u=0, i"}
+Body: username=test&password=test123
+-------------------------

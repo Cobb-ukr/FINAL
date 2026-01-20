@@ -1,0 +1,3 @@
+Flask==3.0.2  # Web framework
+python-dotenv==1.0.1  # Environment variables
+Werkzeug==3.0.2  # WSGI utilities (required when pinning Flask)

@@ -13,12 +13,28 @@
 ```
 FINAL/
 ├── weak_app/
-│   ├── app.py              - Main vulnerable application
+│   ├── __init__.py         - Package initialization
+│   ├── app.py              - Main Flask application
+│   ├── db.py               - Database connection and configuration
 │   ├── data/               - Database and file storage
+│   │   └── app.db          - SQLite database (created at runtime)
 │   ├── logs/               - Access logs and audit trails
+│   │   └── access.log      - Request logging
+│   ├── routes/             - Route blueprints
+│   │   ├── __init__.py
+│   │   ├── login.py        - Login route with SQL injection
+│   │   └── search.py       - Search route with SQL injection
 │   ├── static/             - CSS assets
+│   │   └── index.css
 │   └── templates/          - HTML templates
-└── readme.md               - This documentation
+│       ├── index.html
+│       ├── login.html
+│       ├── search.html
+│       ├── comment.html
+│       └── upload.html
+├── readme.md               - This documentation
+├── requirements.txt        - Python dependencies
+└── injection_commands.md   - Example injection payloads
 ```
 
 ## Key Vulnerabilities
@@ -53,22 +69,28 @@ cur.execute(query)
 pip install -r requirements.txt
 ```
 
-### Database Initialization
+### Database Configuration
+The `db.py` module handles database connectivity:
 ```python
-# Run once to create tables
-from weak_app.app import get_db
+# weak_app/db.py
+from weak_app.db import get_db
+
+# Get a database connection
 conn = get_db()
-conn.executescript('''
-    CREATE TABLE users(id INTEGER PRIMARY KEY, username TEXT, password TEXT);
-    CREATE TABLE request_logs(...);
-    CREATE TABLE auth_attempts(...);
-''')
-conn.commit()
+cur = conn.cursor()
+cur.execute("SELECT * FROM users")
 ```
+
+Database path is automatically resolved relative to the `weak_app` module directory for consistent operation regardless of the working directory.
 
 ### Running the Application
 ```bash
-python weak_app/app.py
+# Run as a module (recommended)
+python3 -m weak_app.app
+
+# Or from the project directory
+cd /mnt/OldVolume/New_projects/FINAL
+python3 -m weak_app.app
 ```
 Access at: http://localhost:5000
 
