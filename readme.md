@@ -108,11 +108,3 @@ Access at: http://localhost:5000
 -  Error masking
 -  Authentication hardening
 
-## Production Warning
-This application contains known vulnerabilities including:
-- Clear-text credential storage
-- Debug mode enabled
-- Public exposure (0.0.0.0 binding)
-- Unrestricted error disclosure
-
-**DO NOT DEPLOY IN PRODUCTION ENVIRONMENTS**
